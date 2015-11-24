@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Fill these in
+SQLITE3=/usr/bin/sqlite3
+ADB=/usr/bin/adb
+
+# Check if 2 arguments were supplied
+if [ $# -eq 2 ];
+then
+    $ADB pull /data/data/$1/databases/$2.db $2.db
+    $SQLITE3 $2.db < $2.txt
+else
+    echo "First parameter should be the app's package name"
+    echo "Second parameter should be the database name"
+    echo "For example, ./watchdb com.my.app MyDatabase"
+fi

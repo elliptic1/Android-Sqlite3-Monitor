@@ -1,0 +1,6 @@
+./watchdb com.tbse.wnswfree AccessPoints
+BSSID              CAPABILITIES                                  SSID        DATE                        FREQUENCY   ID          IS_CONFIGURED  LAT         LONG        CHANNEL     STRENGTH  
+-----------------  --------------------------------------------  ----------  --------------------------  ----------  ----------  -------------  ----------  ----------  ----------  ----------
+b8:e6:25:24:92:81  [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]  2WIRE790    2015-11-23 19:23:44.000342  2432        1           1              0.0         0.0         0           100       
+00:13:46:a5:2a:14  [WPA-PSK-CCMP+TKIP][ESS]                      D-Link AP   2015-11-23 19:23:44.000374  2462        2           1              0.0         0.0         0           59        
+2c:b0:5d:39:47:ea  [WPS][WEP][ESS]                               queen b     2015-11-23 19:23:44.000392  2437        3           0              0.0         0.0         0           15        
