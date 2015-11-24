@@ -15,6 +15,8 @@ To Use:
 
 3. Create a txt file with the same name as your database. This file will contain the sqlite3 commands you want to run.
 
+4. See example.txt.
+
 
 Extra:
 
