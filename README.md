@@ -1,4 +1,4 @@
-# Sqlite3-Monitor
+# Android-Sqlite3-Monitor
 A command-line tool to view sqlite3 databases on Android devices. The database is copied locally and then a custom script is run that uses sqlite commands.
 
 
